@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speech to Text</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+    <h1 class="mb-4">Speech to Text</h1>
+
+    <!-- Input text bar with placeholder -->
+    <div class="input-group mb-4 w-50">
+      <input type="text" class="form-control" placeholder="Press Start and Speak" aria-label="Press Start and Speak" aria-describedby="startButton">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="button" id="startButton">Start</button>
+      </div>
+    </div>
+    <div class="output"></div>
+  </div>
+
+  <!-- Add Bootstrap JS and your app.js script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Your app.js script -->
+  <script src="../src/index.js"></script>
+</body>
+</html>
